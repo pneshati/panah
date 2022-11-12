@@ -1,0 +1,166 @@
+body {
+	background-image: url("../img/pattern.png");
+}
+
+ul.movie-list, 
+ul.concert-list, 
+ul.tvshow-list {
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.1);
+	border: 1px solid #F0F0F0;
+}
+
+ul.movie-list li span, 
+ul.concert-list li span, 
+ul.tvshow-list li span {
+	display: block;
+}
+
+ul.movie-list li, 
+ul.concert-list li, 
+ul.tvshow-list li {
+	border-bottom: 1px solid #f0f0f0;
+	display: table;
+	width: 100%;
+	padding: 8px;
+	height: 25px;
+}
+
+ul.movie-list li:nth-child(2n+1), 
+ul.concert-list li:nth-child(2n+1), 
+ul.tvshow-list li:nth-child(2n+1) {
+	background-color: #fafafa;
+}
+
+ul.movie-list li:nth-child(2n), 
+ul.concert-list li:nth-child(2n), 
+ul.tvshow-list li:nth-child(2n) {
+	background-color: #ffffff;
+}
+
+ul.movie-list li div.logo-container, 
+ul.concert-list li div.logo-container, 
+ul.tvshow-list li div.logo-container {
+	width: 100px;
+	text-align: center;
+	float: left;
+}
+
+ul.movie-list li div.info-container, 
+ul.concert-list li div.info-container, 
+ul.tvshow-list li div.info-container {
+	text-align: left;
+	float: left;
+}
+
+ul.movie-list li div.right-container, 
+ul.concert-list li div.right-container, 
+ul.tvshow-list li div.right-container {
+	float: right;
+	margin-right: 40px;
+}
+
+ul.movie-list a, 
+ul.concert-list a, 
+ul.tvshow-list a {
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+ul.movie-list span.tagline {
+	font-style: italic;
+	color: #999999;
+}
+
+ul.movie-list span.year, 
+ul.concert-list span.year, 
+ul.tvshow-list span.year {
+	display: inline;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+ul.movie-list span.rating, 
+ul.concert-list span.rating, 
+ul.tvshow-list span.rating {
+	display: inline;
+}
+
+div.movie-container, 
+div.concert-container, 
+div.tvshow-container,
+div.episode-container {
+	border-radius: 10px;
+	box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.1);
+	border: 1px solid #F0F0F0;
+	background-color: #ffffff;
+}
+
+div.movie-container h3, 
+div.concert-container h3, 
+div.tvshow-container h3,
+div.episode-container h3 {
+	margin-top: 0;
+}
+
+div.movie-container span.tagline, 
+div.concert-container span.tagline, 
+div.tvshow-container span.tagline {
+	display: block;
+	margin-top: -14px;
+	margin-bottom: 14px;
+	color: #808080;
+	font-style: italic;
+}
+
+div.movie-container span.year, 
+div.concert-container span.year, 
+div.tvshow-container span.year,
+div.episode-container span.year {
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+div.movie-container div.image, 
+div.concert-container div.image, 
+div.episode-container div.image,
+div.tvshow-container div.image {
+	padding: 20px;
+	float: left;
+}
+
+div.movie-container p.plot, 
+div.concert-container p.plot, 
+div.episode-container p.plot,
+div.tvshow-container p.plot {
+	margin-top: 10px;
+	font-size: 17.5px;
+	font-weight: 300;
+	line-height: 1.25;
+}
+
+div.movie-container span.rating, 
+div.concert-container span.rating, 
+div.tvshow-container span.rating,
+div.episode-container span.rating {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+div.movie-container div.extended-infos, 
+div.concert-container div.extended-infos, 
+div.tvshow-container div.episode-list,
+div.episode-container div.extended-infos {
+	clear: both;
+	padding: 20px;
+	padding-top: 0;
+}
+
+div.movie-container div.main-infos, 
+div.concert-container div.main-infos, 
+div.tvshow-container div.main-infos,
+div.episode-container div.main-infos {
+	padding: 20px;
+}
